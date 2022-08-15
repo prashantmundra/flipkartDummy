@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-bg-color: #2874f0
+}
+
+header {
+    background-color: var(--main-bg-color);
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 85px;
+    padding: 0 12px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav ul li {
+
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 0 18px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    height: 4vh;
+    width: 500px;
+    border-radius: 2px;
+    border: 2px solid black;
+    margin: 0 16px 0 56px;
+}
+
+.slider {
+    margin:5px 10vw ;
+    width: 50vw;
+  
+}
+.container {
+    min-height: 86vh;
+    
+}
+.card{
+    width: 90vw;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    
+}
+.card p{
+    margin: 10px,10px;
+}
+.card-item{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 9px;
+}
+
+
+footer {
+    background-color: var(--main-bg-color);
+    height: 7vh;
+}
